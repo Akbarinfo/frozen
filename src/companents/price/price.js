@@ -8,29 +8,28 @@ class Price extends Component {
     this.state = {
       price: 32,
       dollar: 730,
-      count: 0,
+      count: 1,
     };
   }
 
   increment = () => {
     this.setState({ count: this.state.count + 1 });
-    this.setState({price: this.state.price * 2})
-    this.setState({dollar: this.state.dollar * 2})
+    this.setState({price: this.state.price + 32})
+    this.setState({dollar: this.state.dollar + 730})
   };
 
 
   Decrement = () => {
     if(this.state.count == 0){
      this.setState({count: (this.state.count = 0)})
-     this.setState({price: this.state.price = 32 * 2})
-     this.setState({dollar: this.state.dollar = 712 * 2})
-
+     this.setState({price: this.state.price = 0})
+     this.setState({dollar: this.state.dollar = 0})
     }
     else{
       this.setState({count: (this.state.count - 1)})
     }
-    this.setState({ price: this.state.price - this.state.price / 2 });
-    this.setState({ dollar: this.state.dollar - this.state.dollar / 2 });
+    this.setState({ price: this.state.price - 32 });
+    this.setState({ dollar: this.state.dollar - 730});
   };
 
   render() {

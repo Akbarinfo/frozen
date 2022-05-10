@@ -1,0 +1,29 @@
+.footer-inner{
+  border-top: 1px solid #ccc;
+  padding-top: 50px;
+}
+.footer-part{
+  padding-top: 70px;
+}
+.footer-text{
+  font-size: 14px;
+  color: #888;
+}
+.footer-icon{
+  font-size: 25px;
+  color: #30A6FB;
+}
+.footer-links{
+  line-height: 40px;
+  color: #888;
+}
+.footer-links:nth-child(1){
+  color: #000;
+  font-weight: 700;
+  position: relative;
+  top: -10px;
+}
+
+a {
+  text-decoration: none;
+}

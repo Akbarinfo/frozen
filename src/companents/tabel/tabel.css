@@ -1,0 +1,30 @@
+.info-item{
+  margin-right: 65px;
+}
+.info-links{
+  color: #555;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 18px;
+}
+.info-links:hover{
+  border-bottom: 3px solid #4a90e2;
+  padding-bottom: 18px;
+}
+.table{
+  width: 75%;
+}
+
+.bold{
+  font-weight: 600;
+}
+.flex{
+  display: flex;
+  justify-content: flex-end;
+  width: 260%;
+}
+
+.table__per {
+  color: #ddd;
+}

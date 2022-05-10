@@ -216,7 +216,7 @@
 }
 .order-item:nth-child(3){
   position: relative;
-  top: -15px;
+  top: 0px;
 }
 .order-inner{
   height: 50px;
