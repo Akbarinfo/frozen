@@ -1,0 +1,36 @@
+.header {
+  background-color: #4a90e2;
+}
+.header__box {
+  padding: 12px 0;
+}
+
+.header__eng {
+  color: #fff;
+  margin-right: 50px;
+}
+
+.bx-location-plus {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.header__location {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.bx-chevron-down {
+  color: #fff;
+}
+.header__number {
+  text-decoration: none;
+  color: #fff;
+}
+.header__number:first-child {
+  margin-right: 50px;
+}
+.header__number:hover {
+  color: #fff;
+}

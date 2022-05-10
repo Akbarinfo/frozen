@@ -1,0 +1,106 @@
+.hero {
+  margin-top: 30px;
+}
+.hero__logo {
+  width: 100px;
+  height: auto;
+}
+.hero__logobox {
+  margin-right: 45px;
+}
+.hero__search {
+  width: 650px;
+  height: 50px;
+  padding: 0 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.hero__icon {
+  color: #ddd;
+  font-size: 20px;
+  margin-right: 10px;
+  padding-top: 2px;
+}
+.hero__input {
+  border: none;
+  width: 430px;
+}
+.hero__input:focus {
+  outline: none;
+}
+.hero__input::placeholder {
+  color: #ccc;
+}
+.hero__cate {
+  position: relative;
+  border: none;
+  color: #c2cad4;
+  background-color: transparent;
+}
+.hero__cate::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 1px;
+  height: 30px;
+  background-color: #c2cad4;
+}
+
+.hero__down {
+  color: #c2cad4;
+  position: relative;
+  top: 2px;
+}
+
+.hero__ikons {
+  color: #4a90e2;
+  font-size: 22px;
+  margin-right: 5px;
+  position: relative;
+  top: 1.5px;
+}
+
+.hero__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.hero__box {
+  margin-bottom: 40px;
+}
+.links__link {
+  color: #8a99ac;
+}
+
+.links__item:not(:last-child) {
+  margin-right: 80px;
+}
+.active {
+  font-weight: 600;
+  color: #000;
+}
+
+.hero__frozen {
+  margin: 35px 0 0 0;
+}
+
+.frozen__item:not(:last-child) {
+  margin-right: 5px;
+}
+.frozen__right {
+  position: relative;
+  top: 1.8px;
+}
+
+.hero__undo {
+  margin-top: 15px;
+}
+.bx-subdirectory-left {
+  font-size: 25px;
+  position: relative;
+  top: 1.8px;
+}
+.hero__back {
+  text-transform: capitalize;
+  font-weight: 500;
+}
